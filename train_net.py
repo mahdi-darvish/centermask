@@ -150,13 +150,13 @@ if __name__ == "__main__":
 	# Regist own dataset.
     from detectron2.data.datasets import register_coco_instances
     # train data
-    name        = "trashcan_train"
-    json_file   = "./centermask2/datasets/trashcan/train/instances_train_trashcan.json"
-    image_root  = "./centermask2/datasets/trashcan/train"
+    name        = "ifashionist_train"
+    json_file   = "./centermask2/datasets/ifashionist/train/instances_attributes_train2020.json"
+    image_root  = "./centermask2/datasets/ifashionist/train"
     # test data
-    name_val        = "trashcan_val"
-    json_file_val   = "./centermask2/datasets/trashcan/val/instances_val_trashcan.json"
-    image_root_val  = "./centermask2/datasets/trashcan/val"
+    name_val        = "ifashionist_val"
+    json_file_val   = "./centermask2/datasets/ifashionist/val/instances_attributes_val2020.json"
+    image_root_val  = "./centermask2/datasets/ifashionist/val"
     # registr
     register_coco_instances(name, {}, json_file, image_root)
     register_coco_instances(name_val, {}, json_file_val, image_root_val)

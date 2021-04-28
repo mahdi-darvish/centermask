@@ -28,8 +28,8 @@ MODEL:
     NUM_CONV: 2
     CONV_DIM: 128
 DATASETS:
-  TRAIN: ("trashcan_train",)
-  TEST: ("trashcan_val",)
+  TRAIN: ("ifashionist_train",)
+  TEST: ("ifashionist_val",)
 SOLVER:
   CHECKPOINT_PERIOD: 10000
   IMS_PER_BATCH: 8
